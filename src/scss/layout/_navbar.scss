@@ -1,0 +1,50 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        li {
+            margin: 0 15px;
+            position: relative;
+            a {
+                text-decoration: none;
+                color: $primary_color;
+                font-size: $font_size_sm;
+                font-weight: $font_weight_normal;
+            }
+        }
+        .menu {
+            position: relative;
+            &:hover {
+                .sub_menu {
+                    display: block;
+                }
+            }
+            .sub_menu {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: -50%;
+                width: 200px;
+                background-color: $tertiary_color;
+                padding: 20px 0;
+                li {
+                    margin: 10px 0;
+                    a {
+                        color: $primary_color;
+                        font-size: $font_size_xs;
+                        font-weight: $font_weight_normal;
+                    }
+                }
+            }
+
+        }
+        #sub_menu {
+            display: block;
+        }
+    }
+}

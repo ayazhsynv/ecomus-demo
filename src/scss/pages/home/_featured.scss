@@ -1,0 +1,26 @@
+.featured {
+    padding: 0 40px;
+    margin-top: 50px;
+    &__item {
+        height: 660px;
+        color: $tertiary_color;
+        margin-bottom: 40px;
+        p {
+            color: $tertiary_color;
+        }
+        &__top {
+            top: 7%;
+            left: 10%;
+        }
+        &__bottom {
+            bottom: 6%;
+            left: 8%;
+            .btn {
+                color: $tertiary_color;
+                &:hover {
+                    color: $primary_color;
+                }
+            }
+        }
+    }
+}

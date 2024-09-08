@@ -1,0 +1,39 @@
+.header {
+    padding: 20px 40px;
+    border-bottom: 1px solid $grey_color;
+    &__start {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        select {
+            padding: 0.5rem;
+            border: none;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-right: 1rem;
+            outline: none;
+        }
+    }
+
+    &__center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+            width: 136px;
+            height: auto;
+        }
+    }
+
+    &__end {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        i {
+            font-size: $font_size_xl;
+            padding: 5px;
+            font-weight: $font_weight_normal;
+        }
+    }
+}

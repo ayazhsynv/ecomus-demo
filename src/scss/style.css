@@ -47,4 +47,155 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+body {
+  font-family: "Albert Sans", system-ui;
+}
+
+h1 {
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #545454;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: hidden;
+}
+
+.header {
+  padding: 20px 40px;
+  border-bottom: 1px solid #EBEBEB;
+}
+.header__start {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header__start select {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  margin-right: 1rem;
+  outline: none;
+}
+.header__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__center img {
+  width: 136px;
+  height: auto;
+}
+.header__end {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header__end i {
+  font-size: 24px;
+  padding: 5px;
+  font-weight: 400;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+}
+.nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav ul li {
+  margin: 0 15px;
+  position: relative;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.nav ul .menu {
+  position: relative;
+}
+.nav ul .menu:hover .sub_menu {
+  display: block;
+}
+.nav ul .menu .sub_menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: -50%;
+  width: 200px;
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+.nav ul .menu .sub_menu li {
+  margin: 10px 0;
+}
+.nav ul .menu .sub_menu li a {
+  color: #000000;
+  font-size: 14px;
+  font-weight: 400;
+}
+.nav ul #sub_menu {
+  display: block;
+}
+
+.hero {
+  background-color: #EBE9DE;
+}
+
+.featured {
+  padding: 0 40px;
+  margin-top: 50px;
+}
+.featured__item {
+  height: 660px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+.featured__item p {
+  color: #ffffff;
+}
+.featured__item__top {
+  top: 7%;
+  left: 10%;
+}
+.featured__item__bottom {
+  bottom: 6%;
+  left: 8%;
+}
+.featured__item__bottom .btn {
+  color: #ffffff;
+}
+.featured__item__bottom .btn:hover {
+  color: #000000;
 }/*# sourceMappingURL=style.css.map */

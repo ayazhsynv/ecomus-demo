@@ -1,0 +1,22 @@
+body {
+    font-family: "Albert Sans", system-ui;
+}
+
+h1 {
+    font-size: $heading_size_lg;
+    font-weight: $font_weight_normal;
+    line-height: $line_height_sm;
+}
+
+p {
+    font-size: $font_size_lg;
+    font-weight: $font_weight_normal;
+    line-height: $line_height_md;
+    color: $secondary_color;
+}
+
+h2 {
+    font-size: $font_size_xxl;
+    font-weight: $font_weight_normal;
+    line-height: $line_height_sm;
+}
